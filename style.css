@@ -1,0 +1,105 @@
+* {
+  font-family: "Segoe UI";
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block;
+}
+
+.box {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 100px;
+}
+
+.preview-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(231, 231, 231, 0.7);
+  z-index: 10;
+  top: 0;
+}
+
+.preview {
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+  z-index: 15;
+}
+
+.button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.button {
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  -webkit-box-shadow: 11px 11px 22px #e8e8e8, -11px -11px 22px #ffffff;
+          box-shadow: 11px 11px 22px #e8e8e8, -11px -11px 22px #ffffff;
+}
+
+#stop {
+  background-color: #d870da;
+}
+
+#start {
+  background-color: #7ed7b0;
+}
+
+#clear {
+  background-color: #ccc6dc;
+}
+
+input {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  width: 160px;
+  margin-left: 50px;
+  border-radius: 20px;
+  border: 2px solid #bfbfbf;
+}
+/*# sourceMappingURL=style.css.map */
